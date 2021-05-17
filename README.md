@@ -5,7 +5,7 @@
 
 # Deployed at
 
-## Reguirement
+## Requirement
 
 ------------------------------
 
