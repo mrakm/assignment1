@@ -8,7 +8,7 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 
 import TablePagination from "@material-ui/core/TablePagination";
 
-import { useHistory } from "react-router-dom";
+
 
 
 import HeaderTable from '../components/headerTable';
@@ -19,7 +19,7 @@ import {fetchDataFromApi} from '../api/APIUtils';
 
 
 export default function DisplayBid() {
-  let history = useHistory();
+
   const [sort, setSort] = useState(false);
   const [loading, setLoading] = useState(true);
   const [rowsPerPage, setRowsPerPage] = React.useState(5);
